@@ -25,8 +25,8 @@ struct Resume {
                                       "2021 年 3 月",
                                       "2022 年 1 月"),]
     let phoneUrl = "tel://0912693650"
-    let socialMedia: [(name: String, url: String)] = [("LinkedIn","www.linkedin.com/in/cty0305"),
-                                                      ("Github","https://github.com/Cty0305"),
+    let socialMedia: [(name: String, url: String)] = [("LinkedIn","https://www.linkedin.com/in/cty0305/"),
+                                                      ("Medium","https://medium.com/@Cty0305"),
                                                       ("Instagram","https://www.instagram.com/cty0305/")]
 }
 

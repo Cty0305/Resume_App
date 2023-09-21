@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B5C19E22AB30B15008F12C9 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5C19E12AB30B15008F12C9 /* ContactView.swift */; };
 		7BB2FE2E2AB0131100EF2A03 /* Resume_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2FE2D2AB0131100EF2A03 /* Resume_App.swift */; };
 		7BB2FE302AB0131100EF2A03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2FE2F2AB0131100EF2A03 /* ContentView.swift */; };
 		7BB2FE322AB0131200EF2A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB2FE312AB0131200EF2A03 /* Assets.xcassets */; };
 		7BB2FE362AB0131200EF2A03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB2FE352AB0131200EF2A03 /* Preview Assets.xcassets */; };
 		7BB2FE3D2AB0170C00EF2A03 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2FE3C2AB0170C00EF2A03 /* Constant.swift */; };
-		7BB2FE3F2AB0548B00EF2A03 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2FE3E2AB0548B00EF2A03 /* ContactView.swift */; };
+		7BB2FE3F2AB0548B00EF2A03 /* DotLineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB2FE3E2AB0548B00EF2A03 /* DotLineShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B5C19E12AB30B15008F12C9 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		7BB2FE2A2AB0131100EF2A03 /* Resume_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resume_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB2FE2D2AB0131100EF2A03 /* Resume_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resume_App.swift; sourceTree = "<group>"; };
 		7BB2FE2F2AB0131100EF2A03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,7 +25,7 @@
 		7BB2FE332AB0131200EF2A03 /* Resume_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Resume_App.entitlements; sourceTree = "<group>"; };
 		7BB2FE352AB0131200EF2A03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BB2FE3C2AB0170C00EF2A03 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		7BB2FE3E2AB0548B00EF2A03 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		7BB2FE3E2AB0548B00EF2A03 /* DotLineShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLineShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 				7BB2FE3C2AB0170C00EF2A03 /* Constant.swift */,
 				7BB2FE2D2AB0131100EF2A03 /* Resume_App.swift */,
 				7BB2FE2F2AB0131100EF2A03 /* ContentView.swift */,
-				7BB2FE3E2AB0548B00EF2A03 /* ContactView.swift */,
+				7BB2FE3E2AB0548B00EF2A03 /* DotLineShape.swift */,
+				7B5C19E12AB30B15008F12C9 /* ContactView.swift */,
 				7BB2FE312AB0131200EF2A03 /* Assets.xcassets */,
 				7BB2FE332AB0131200EF2A03 /* Resume_App.entitlements */,
 				7BB2FE342AB0131200EF2A03 /* Preview Content */,
@@ -148,7 +151,8 @@
 				7BB2FE302AB0131100EF2A03 /* ContentView.swift in Sources */,
 				7BB2FE2E2AB0131100EF2A03 /* Resume_App.swift in Sources */,
 				7BB2FE3D2AB0170C00EF2A03 /* Constant.swift in Sources */,
-				7BB2FE3F2AB0548B00EF2A03 /* ContactView.swift in Sources */,
+				7B5C19E22AB30B15008F12C9 /* ContactView.swift in Sources */,
+				7BB2FE3F2AB0548B00EF2A03 /* DotLineShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Resume_App/Preview Content\"";
+				DEVELOPMENT_TEAM = L9HD9K5P3G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -309,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Resume_App/Preview Content\"";
+				DEVELOPMENT_TEAM = L9HD9K5P3G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
